@@ -114,7 +114,13 @@ const Home = () => {
 
             <About/> {/* ===============SERVICES SECTION=========== */}
             <section>
-                <div className="container"></div>
+                <div className="container">
+                    <div className="xl:w-[470px] mx-auto">
+                        <h2 className='heading text-center'>Our Legal Services</h2>
+                        <p className="text__para text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                </div>
             </section>
             {/* ===============SERVICES SECTION END=========== */} </>
     );

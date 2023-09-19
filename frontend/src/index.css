@@ -5,7 +5,7 @@
 
 @layer base{
     section{
-        @apply px-[75px]
+        @apply py-[75px]
     }
 }
 @layer components{
@@ -33,10 +33,10 @@
 
 @media only screen and (max-width:1024px) {
     .container{
-        @apply w-full
+        @apply w-full;
     }
     section{
-        @apply py-[35px]
+        @apply py-[35px];
     }
 }
 
