@@ -112,8 +112,11 @@ const Home = () => {
                 </div>
             </section>
 
-            <About/>
-        </>
+            <About/> {/* ===============SERVICES SECTION=========== */}
+            <section>
+                <div className="container"></div>
+            </section>
+            {/* ===============SERVICES SECTION END=========== */} </>
     );
 }
 
