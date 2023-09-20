@@ -9,6 +9,7 @@ import About from '../components/About/About'
 
 import {Link} from 'react-router-dom'
 import {BsArrowRight} from 'react-icons/bs'
+import ServiceList from '../components/Services/ServiceList'
 const Home = () => {
     return (
         <> {/* ============HERO SECTION========== */}
@@ -120,6 +121,7 @@ const Home = () => {
                         <p className="text__para text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </p>
                     </div>
+                    <ServiceList/>
                 </div>
             </section>
             {/* ===============SERVICES SECTION END=========== */} </>
