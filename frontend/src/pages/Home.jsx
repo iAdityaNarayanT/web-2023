@@ -5,6 +5,7 @@ import heroImg03 from '../assets/images/hero-img03.png'
 import icon01 from '../assets/images/icon01.png'
 import icon02 from '../assets/images/icon02.png'
 import icon03 from '../assets/images/icon03.png'
+import faqImg from '../assets/images/faq-img.png'
 import About from '../components/About/About'
 import featureImg from '../assets/images/feature-img.png'
 import videoIcon from '../assets/images/video-icon.png'
@@ -12,6 +13,8 @@ import avatarIcon from '../assets/images/avatar-icon.png'
 import {Link} from 'react-router-dom'
 import {BsArrowRight} from 'react-icons/bs'
 import ServiceList from '../components/Services/ServiceList'
+import LawyerList from '../components/Lawyers/LawyerList'
+import FaqList from '../components/Faq/FaqList'
 const Home = () => {
     return (
         <> {/* ============HERO SECTION========== */}
@@ -122,6 +125,7 @@ const Home = () => {
                         <h2 className='heading text-center'>Our Legal Services</h2>
                         <p className="text__para text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </p>
+
                     </div>
                     <ServiceList/>
                 </div>
@@ -168,13 +172,41 @@ const Home = () => {
 
                                 <div className="flex items-center gap-[6px] lg:gap-[10px] mt-2 lg:mt-[18px]"><img src={avatarIcon}
                                         alt=""/></div>
-                                <h4 className="text-[10px] leading-3 lg:text-[16px] lg:leading-[22px] font-[700] text-headingColor">Rishabh Mirza</h4>
+                                <h4 className="text-[10px] leading-3 lg:text-[16px] lg:leading-[22px] font-[700] text-headingColor">Rishabh Singh (Mirzapurwale)</h4>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            {/* ==============FETAURE SECTION end ================= */} </>
+            {/* ==============FETAURE SECTION end ================= */}
+            {/* ==============our services ================= */}
+            <section>
+                <div className="container">
+                    <div className="xl:w-[470px] mx-auto">
+                        <h2 className='heading text-center'>We provide following legal services:</h2>
+                        <p className="text__para text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <LawyerList/>
+
+                </div>
+            </section>
+            {/* ==============our services ================= */}
+
+            {/* ====================FAQ SECTION============= */}
+            <section>
+                <div className="container">
+                    <div className="flex justify-between gap-[50px] lg:gap-0">
+                        <div className="w-1/2 hidden md:block"><img src={faqImg}
+                                alt=""/></div>
+                        <div className="w-full md:w-1/2">
+                            <h2 className='heading'>Most Questions Asked By Clients</h2>
+                            <FaqList/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {/* ====================FAQ SECTION END============= */} </>
 
 
     );
