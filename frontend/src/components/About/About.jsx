@@ -21,8 +21,8 @@ const About = () => {
                         <h2 className='heading'>
                             Proud to be one of the nation's best</h2>
                         <p className="text__para">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio iste neque nesciunt, aliquid placeat modi, odit, quibusdam maxime officiis reiciendis laboriosam. Neque ab voluptate similique accusamus accusantium cupiditate quidem soluta!</p>
-                        <p className="text__para mt-[30px]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque unde illum dicta? Eum, sunt! Accusamus incidunt placeat iure voluptates illo quae fuga provident quos laborum possimus! Hic nihil architecto repellendus!</p>
+                            We take immense pride in being among the nation's top legal service providers. Our commitment to excellence distinguishes us in the realm of justice.</p>
+                        <p className="text__para mt-[30px]">At Nyay Setu, we're dedicated to serving our clients with the utmost expertise and integrity, ensuring their legal needs are met with exceptional care.</p>
                         <Link to='/'>
                             <button className="btn">Learn More</button>
                         </Link>

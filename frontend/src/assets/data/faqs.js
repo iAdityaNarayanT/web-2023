@@ -1,27 +1,27 @@
 export const faqs = [
   {
-    question: "What is your medical care?",
+    question: "How can I find a suitable lawyer on your platform?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "Simply use our search and filtering options to match your legal needs with experienced lawyers in your area.",
   },
   {
-    question: "What happens if I need to go a hospital?",
+    question: "Are your legal services affordable for all income levels?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "Yes, we're committed to making legal services accessible by offering a range of affordable options and payment plans.",
   },
   {
-    question: "What happens if I need to go a hospital?",
+    question: " How do you ensure the quality of legal services on your platform?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "We maintain high standards through client reviews, lawyer credentials, and ongoing monitoring of case quality.",
   },
   {
-    question: "Can I visit your medical office?",
+    question: " Is my personal information secure when using your platform?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "Absolutely. We prioritize data privacy and employ robust security measures to safeguard your information.",
   },
   {
-    question: "Does you provide urgent care?",
+    question: "Can I book a legal consultation online?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "Yes, it's easy! Just browse lawyer profiles and book appointments with a few clicks for your convenience.",
   },
 ];

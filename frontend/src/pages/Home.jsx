@@ -28,7 +28,7 @@ const Home = () => {
                         <div>
                             <div className='lg:w-[570px]'>
                                 <h1 className="text-[36px] leading-[46px] text-headingColor font-[800] md:text-[60px] md:leading-[70px]">We help our clients fight with injustice.</h1>
-                                <p className="text__para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, molestiae assumenda impedit adipisci sapiente architecto optio officiis molestias saepe beatae iure vitae. Dolorum, explicabo cum! Vero cum eligendi reiciendis quam!</p>
+                                <p className="text__para">At NyaySetu, we're on a mission to empower clients, connect them with legal experts, and fight injustice. Together, we navigate the legal landscape to ensure fairness prevails</p>
                                 <button className="btn">Request an Appointment</button>
                             </div>
 
@@ -83,7 +83,7 @@ const Home = () => {
                                     alt=""/></div>
                             <div className="mt-[30px]">
                                 <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">Find a lawyer.</h2>
-                                <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum eum non esse quisquam voluptatum animi officia ab.</p>
+                                <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">Discover your perfect legal ally. Use our intuitive platform to find the right lawyer for your unique needs. Your justice journey begins here.</p>
                                 <Link to='/lawyers' className='w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none'>
 
                                     <BsArrowRight className='group-hover:text-white w-6 h-5'/>
@@ -95,7 +95,7 @@ const Home = () => {
                                     alt=""/></div>
                             <div className="mt-[30px]">
                                 <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">Find location.</h2>
-                                <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum eum non esse quisquam voluptatum animi officia ab.</p>
+                                <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">Locate legal aid providers near you. Our platform simplifies the search for legal assistance, connecting you with trusted experts in your area.</p>
                                 <Link to='/lawyers' className='w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none'>
 
                                     <BsArrowRight className='group-hover:text-white w-6 h-5'/>
@@ -107,7 +107,7 @@ const Home = () => {
                                     alt=""/></div>
                             <div className="mt-[30px]">
                                 <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">Book Appointment</h2>
-                                <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum eum non esse quisquam voluptatum animi officia ab.</p>
+                                <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">Secure your legal consultation easily. Book appointments with experienced lawyers through our user-friendly platform. Legal solution is just click away.</p>
                                 <Link to='/lawyers' className='w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none'>
 
                                     <BsArrowRight className='group-hover:text-white w-6 h-5'/>
@@ -122,8 +122,8 @@ const Home = () => {
             <section>
                 <div className="container">
                     <div className="xl:w-[470px] mx-auto">
-                        <h2 className='heading text-center'>Our Legal Services</h2>
-                        <p className="text__para text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <h2 className='heading text-center'>Our Platform Provides</h2>
+                        <p className="text__para text-center">"Trusted legal services at your fingertips."
                         </p>
 
                     </div>
@@ -172,7 +172,7 @@ const Home = () => {
 
                                 <div className="flex items-center gap-[6px] lg:gap-[10px] mt-2 lg:mt-[18px]"><img src={avatarIcon}
                                         alt=""/></div>
-                                <h4 className="text-[10px] leading-3 lg:text-[16px] lg:leading-[22px] font-[700] text-headingColor">Rishabh Singh (Mirzapurwale)</h4>
+                                <h4 className="text-[10px] leading-3 lg:text-[16px] lg:leading-[22px] font-[700] text-headingColor">Rishabh Singh</h4>
                             </div>
                         </div>
                     </div>
@@ -184,7 +184,7 @@ const Home = () => {
                 <div className="container">
                     <div className="xl:w-[470px] mx-auto">
                         <h2 className='heading text-center'>We provide following legal services:</h2>
-                        <p className="text__para text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <p className="text__para text-center">We offer a spectrum of legal services, including:
                         </p>
                     </div>
                     <LawyerList/>
